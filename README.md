@@ -20,10 +20,10 @@ plt.title('温度和时间的关系', fontproperties=my_font)
 plt.plot(x,y)
 
 #6.绘制图像
-plt.grid()
+plt.grid() #参数：alpha
 
 #7.设置图例
-plt.legend()
+plt.legend()#参数：alpha prop
 
 #8.展示
 plt.show()
