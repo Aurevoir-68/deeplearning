@@ -1,4 +1,4 @@
-# matplotlib绘制步骤
+#### matplotlib绘制步骤：
 
 #1.实例化字体
 my_font = font_manager.FontProperties(fname='/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc')
@@ -19,11 +19,11 @@ plt.title('温度和时间的关系', fontproperties=my_font)
 #5.绘制图像
 plt.plot(x,y)
 
-#6.绘制图像
-plt.grid() #参数：alpha
+#6.设置网格
+plt.grid()              #参数：alpha
 
 #7.设置图例
-plt.legend()#参数：alpha prop
+plt.legend()            #参数：alpha prop loc
 
 #8.展示
 plt.show()
